@@ -20,5 +20,12 @@ This Python script implements an Iterated Local Search (ILS) algorithm to solve 
 - `perform_double_bridge(route)`: Performs a double bridge move on a route.
 - `perturb_route(route)`: Perturbs a route.
 - `perform_iterated_local_search(initial_route, coordinates)`: Performs the Iterated Local Search algorithm.
+
+### Results
+- Distance from Nearest Neighbour: 8115.435584058902
+- Distance after Initial local search: 7672.802815279211
+- Distance after Iterated Local Search: 7350.774461426287
+
+
 ### Note
 The stopping criterion for the ILS algorithm in this code is the number of iterations without improvement. If the algorithm goes through a certain number of iterations `(defined by NO_IMPROVE_LIMIT) `without finding a better solution, it stops. Other stopping criteria could be used, such as a time limit or a minimum improvement.
